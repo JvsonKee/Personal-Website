@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit:200,400');
+:root {
+    --main-background-colour: #2C2C39;
+    --accent-blue: #1C77FF;
+    --accent-green: #49FF7C;
+    --main-text-colour: #FFFFFF;
+    --secondary-text-colour: #BEBEBE;
+}
+
+html {
+    list-style: none;
+    background-color: var(--main-background-colour);
+    font-family: 'Outfit', sans-serif;
+    color: var(--main-text-colour);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1210px;
+}
+
+
+
+/* Home section */
+
+.home-container {
+    width: 1300px;
+    margin: 200px auto 350px auto;
+    font-size: 46px;
+    font-weight: 200;
+}
+
+.name-highlight {
+    color: var(--accent-blue);
+    font-weight: 500;
+}
+
+.welcome-message {
+    width: 811px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.contact {
+    font-size: 24px;
+}
+
+.contact-link {
+    color: var(--main-text-colour);
+    text-decoration: none;
+    border-bottom: 3px solid var(--main-text-colour);
+    transition: 0.3s ease-in-out;
+}
+
+.contact-link:hover {
+    border-bottom: 3px solid var(--accent-blue);
+    transition: 0.3s ease-in-out;
+}
+
+/* About section */
+
+.about-container {
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+.about-content {
+    width: 805px;
+    color: var(--secondary-text-colour);
+}
+
+.highlight {
+    color: var(--main-text-colour);
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.highlight:hover {
+    color: var(--accent-blue);
+    transition: 0.3s ease-in-out;
+}
+
+.edu-section {
+    margin-bottom: 40px;
+}
+
+.header-blue {
+    color: var(--accent-blue);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 200px;
+}
+
+
+
+/* Skills section */
+
+.skills-container {
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 250px;
+}
+
+.skill-header {
+    color: var(--main-text-colour);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.skills-content {
+    display: flex;
+    justify-content:space-between;
+    width: 948px;
+    color: var(--secondary-text-colour);
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-item li {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.skill-list {
+    width: 300px;
+}
+
+.green-check {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.resume {
+    margin-top: 50px;
+    color: var(--main-text-colour);
+}
+
+
