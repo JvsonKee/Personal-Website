@@ -3,8 +3,8 @@ import check from "../Images/check.png"
 
 function Skills() {
     return (
-        <div className="skills-container">
-            <div className="header-blue">SKILLS</div>
+        <section className="skills-container">
+            <div className="header-blue" id="skills">SKILLS</div>
             <div className="skills-content">
                 <div className="skill-list" id="child">
                     <div className="skill-header">LANGUAGES</div>
@@ -75,7 +75,8 @@ function Skills() {
                 </div>
                 <div className="resume">View Full Résumé</div>
             </div>
-        </div>
+    
+        </section>
     )
 }
 
