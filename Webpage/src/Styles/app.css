@@ -46,12 +46,11 @@ body {
     text-decoration: none;
     border-bottom: 2px solid var(--accent-blue);
     padding: 0px 3px;
-    transition: 0.3s ease-in-out;
+    transition: ease-in-out 0.3s ;
 }
 
 .contact-link:hover {
     background-color: var(--accent-blue);
-    transition: 0.5s ease-out;
 }
 
 /* About section */
@@ -84,12 +83,11 @@ body {
     color: var(--main-text-colour);
     font-weight: 400;
     text-decoration: none;
-    transition: 0.3s ease-in-out;
+    transition: ease-in-out 0.3s;
 }
 
 .highlight:hover {
     color: var(--accent-blue);
-    transition: 0.3s ease-in-out;
 }
 
 .header-blue {
@@ -151,8 +149,13 @@ body {
     width: 400px;
     height: 50px;
     color: var(--main-text-colour);
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
 }
 
+.resume:hover {
+    color: var(--accent-blue);
+}
 
 /* Projects section */
 
@@ -227,22 +230,21 @@ body {
 
 .footer-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 300px;
 }
 
 .footer-links a {
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 400;
     color: var(--main-text-colour);
     text-decoration: none;
-    transition: 0.3s ease-in-out;
+    transition: ease-in-out 0.3s ;
 }
 
 .footer-links a:hover {
     color: var(--accent-blue);
-    transition: 0.3s ease-in-out;
 }
 
 
@@ -270,6 +272,20 @@ body {
     
     .green-check {
         width: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-name {
+        font-size: 22px;
+    }
+
+    .footer-links a {
+        font-size: 22px;
     }
     
 }
