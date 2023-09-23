@@ -1,5 +1,5 @@
-import check from "../Images/check.png"
-
+import check from "../Images/check.png";
+import resumePDF from "../Documents/cs-resume.pdf";
 
 function Skills() {
     return (
@@ -24,6 +24,10 @@ function Skills() {
                         <li>
                             <img src={check} alt="Green checkmark" className="green-check"></img>
                             C
+                        </li>
+                        <li>
+                            <img src={check} alt="Green checkmark" className="green-check"></img>
+                            C++
                         </li>
                         <li>
                             <img src={check} alt="Green checkmark" className="green-check"></img>
@@ -73,7 +77,7 @@ function Skills() {
                         </li>   
                     </ul>
                 </div>
-                <div className="resume">View Full Résumé</div>
+                <a href={resumePDF} target="_blank" rel="noreferrer" className="resume">View Full Résumé</a>
             </div>
     
         </section>
